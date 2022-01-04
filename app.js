@@ -105,7 +105,7 @@ if (age >= 1 && age<vieux) {
 let firstName = prompt("Entrez votre prénom");
 let age = prompt("Entrez votre age")
 
-if (firstName = "Sofiane" && age > 18){
+if (firstName == "Sofiane" && age > 18){
     console.log("Welcome!")
 } else if (firstName.length = age){
     console.log("bizarre...")
