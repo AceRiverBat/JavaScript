@@ -111,8 +111,8 @@ if (firstName == "Sofiane" && age > 18){
     console.log("bizarre...")
 } else if (age > 30 && age < 50){
     console.log("vous avez entre 30 et 50ans")
-} else if (firstName = "Abby"^"Paul" && age < 70){
-    console.log("c ok")
+} else if (firstName == "Abby"|| firstName == "Paul" && age < 70){
+    console.log("c ok tu t'appel Paul ou Abby")
 } else{
     console.log("c nul!")
 }
