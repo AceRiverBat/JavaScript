@@ -99,7 +99,6 @@ if (age >= 1 && age<vieux) {
 } else {
     console.log("casse toi!")
 }
-*/
 
 
 let firstName = prompt("Entrez votre prénom");
@@ -115,4 +114,71 @@ if (firstName == "Sofiane" && age > 18){
     console.log("c ok tu t'appel Paul ou Abby")
 } else{
     console.log("c nul!")
+}
+
+let num = parseInt(prompt("choisir un chiffre"));
+let i = 0;
+do{
+    document.write("la table de multiplication est: " + num*i + "<br />");
+    num*i++;
+}
+while (i<=10)
+*/
+/*
+let num = parseInt(prompt("choisir un chiffre"));
+
+while(num !== 15){
+    num = parseInt(prompt("choisir un chiffre"));
+    if(num > 15){
+        alert("c moins");
+        let num = parseInt(prompt("choisir un chiffre"));
+        }
+        else{
+        alert("c plus");
+        let num = parseInt(prompt("choisir un chiffre"));
+        }
+}
+alert("gg")
+
+do{
+    document.write("la table de multiplication est: " + num*i + "<br />");
+    num*i++;
+}
+while (i<=10)
+
+function myfunction(){
+    alert('message')
+}
+
+function product(a,b){
+    let x = a*b
+    return x;
+}
+document.write(product(16,3));
+
+function hi(){
+    let username = prompt('taper votre nom');
+    let age = prompt('taper votre age');
+    alert('Bonjour '+ username + ' ' + 'vous avez ' + age +' ' + 'ans');
+}
+	
+image=['1.jpg','2.jpg','3.jpg','4.jpg']
+let container = document.getElementById('conteneur');
+for ( i = 0; i < image.length; i++) {
+    let img = document.createElement('img');
+    img.src = 'image/'+image[i];
+    img.setAttribute('style','height: 450px');
+    container.appendChild(img);
+    console.log(image[i]);
+}
+var tableau =[];
+for (var i= 0; i<5; i++){
+    tableau.push(i);
+}
+console.log(tableau);
+*/
+let num = parseInt(prompt("choisir un chiffre"));
+for (var i=0; i<=10; num*i++ ){
+    document.write("la table de multiplication est: " + num*i + "<br />");
+    num*i++;
 }
